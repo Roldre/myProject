@@ -1,0 +1,147 @@
+sbody{
+    font:15px/1.5  Arial Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+    background-image:url("../img/images-background.jpg") no-repeat 
+  }
+  /*Global*/
+  .container{
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+  }
+  
+  ul{
+      margin:0;
+      padding:0;
+  }
+  .button_1{
+      height:38px;
+      background: #e8491d;
+      border: none;
+      padding-left: 20px;
+      padding-right: 20px;
+      color:white;
+  }
+  
+  /*Header*/
+  header{
+  
+      background: #FF8F00;
+      color:#ffffff;
+      padding-top: 30px;
+      min-height: 70px;
+      border-bottom: #e8491d 3px solid;
+  }
+  
+  
+  header a {
+      color:white;
+      text-decoration: none;
+      text-transform:uppercase;
+      font-size: 16px;
+  }
+   
+  
+  header li{
+      float:left;
+      display:inline;
+      padding: 0 20px 0 20px;
+  }
+  
+  header #branding{
+    float:left;
+  
+  }
+  
+  header #branding h1{
+      margin:0;
+  }
+  
+  header nav{
+      float:right;
+      margin-top:10px; 
+  }
+  
+  header .highlights, header  .current  a{
+  color:#3F5866;
+  font-weight: bold;
+  
+  }
+  
+  header a:hover{
+      color:grey;
+      font-weight: bold;
+  }
+
+  .slay h1{
+      text-align: center;
+      font-weight: 300;
+  }
+  
+  .create {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background: #555555;
+  }
+  
+
+  
+  .create_form input[type="submit"]:hover {
+      background: #e78f0b;
+  }
+  
+  #date {
+    padding: 10px 10px;
+    margin-bottom: 15px;
+    font-size: 1.3em;
+  }
+
+.createform{
+    
+
+}
+
+#backo{
+    background: wheat;
+    width:80%;
+    padding-left:10px;
+    padding-bottom: 7px;
+    
+}
+
+#backo form input, #backo form select{
+    width:65%;
+    height: 40px;
+    border-radius: 4px;
+    border-bottom: orange;
+}
+#backo form input[type="submit"]:hover{
+background-color:orange
+}
+.createform h2{
+    text-align: center;
+}
+ button{
+    float: right;
+    margin-top: 15px;
+    background: orange;
+    height: 30px;
+}
+button a{
+    text-decoration: none;
+    color:black;
+}
+
+  footer{
+    padding:20px;
+    margin-top: 20px;
+    color:#ffffff;
+    background-color: #e8491d;
+    text-align: center;
+    
+    }
